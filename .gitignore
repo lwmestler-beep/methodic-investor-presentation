@@ -1,0 +1,6 @@
+.DS_Store
+photos/
+*.pdf
+Screenshot*
+chevron-base64.txt
+.claude/

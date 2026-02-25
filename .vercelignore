@@ -1,0 +1,5 @@
+photos/
+*.pdf
+*.png
+*.txt
+.claude/
