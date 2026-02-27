@@ -182,8 +182,7 @@ background:var(--blue);border-radius:50%;
 }
 .sub-text{
 font-size:15px;color:var(--muted);line-height:1.7;
-font-weight:300;max-width:600px;text-align:center;
-margin-left:auto;margin-right:auto;
+font-weight:300;
 }
 .italic-accent{
 font-family:'Libre Baskerville',serif;
@@ -241,7 +240,7 @@ font-size:22px;font-weight:700;color:#fff;
 .team-photo{
 width:100px;height:100px;border-radius:50%;
 object-fit:cover;
-object-position:center 25%;
+object-position:center center;
 border:2px solid var(--border);
 margin:0 auto 14px;
 display:block;
@@ -254,7 +253,7 @@ transform:scale(1.05);
 .team-photo-sm{
 width:56px;height:56px;border-radius:50%;
 object-fit:cover;
-object-position:center 20%;
+object-position:center center;
 border:2px solid var(--border);
 margin:0 auto 10px;
 display:block;
@@ -266,7 +265,7 @@ border-color:rgba(137,180,212,0.4);
 .team-photo-xs{
 width:44px;height:44px;border-radius:50%;
 object-fit:cover;
-object-position:center 20%;
+object-position:center center;
 border:1.5px solid var(--border);
 margin:0 auto 8px;
 display:block;
@@ -360,10 +359,6 @@ width:0;
 /* ========== SLIDE-SPECIFIC ========== */
 .slide-inner{
 width:100%;max-width:1000px;
-text-align:center;
-}
-.slide-inner .grid-2,.slide-inner .grid-3,.slide-inner .grid-4{
-text-align:left;
 }
 
 /* Title slide special */
@@ -519,7 +514,7 @@ animation:shimmer 4s linear infinite;
 <h2 class="headline reveal" style="font-size:42px;margin-bottom:8px;transition-delay:0.1s">
 THE <span class="hl">TEAM</span>
 </h2>
-<p class="sub-text reveal" style="font-size:16px;margin:0 auto 8px;transition-delay:0.15s;color:var(--text);font-weight:400">
+<p class="sub-text reveal" style="font-size:16px;margin-bottom:8px;transition-delay:0.15s;color:var(--text);font-weight:400">
 Founding Partners
 </p>
 <div class="grid-3" style="margin-bottom:24px">
@@ -529,12 +524,12 @@ Founding Partners
 <div class="team-role">Managing Partner<br>& Co-Founder</div>
 </div>
 <div class="card team-card reveal-scale" style="transition-delay:0.35s">
-<img class="team-photo" data-photo="logan" src="" alt="Logan Mestler" style="object-position:center 15%">
+<img class="team-photo" data-photo="logan" src="" alt="Logan Mestler">
 <div class="team-name">Logan Mestler</div>
 <div class="team-role">Managing Partner<br>& Co-Founder</div>
 </div>
 <div class="card team-card reveal-scale" style="transition-delay:0.45s">
-<img class="team-photo" data-photo="dean" src="" alt="Dean Farber" style="object-position:center 35%">
+<img class="team-photo" data-photo="dean" src="" alt="Dean Farber">
 <div class="team-name">Dean Farber</div>
 <div class="team-role">Managing Partner<br>& Co-Founder</div>
 </div>
